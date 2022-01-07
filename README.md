@@ -2,8 +2,8 @@
 下载release运行 `xttDns.exe` 
 
 ## 开机启动
-将`xttDns.exe`和`config.yml`放到以下目录
-C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+将`xttDns.exe`放到以下目录<br/>
+`C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
 
 ## 运行配置
 ```yaml
@@ -23,5 +23,5 @@ restart_process_name: iexplore.exe
 refresh_second: 10
 
 # 运行日志
-log_file: xtt.log
+log_file: c:/xttdns/xtt.log
 ```

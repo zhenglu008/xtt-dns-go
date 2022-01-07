@@ -7,7 +7,7 @@ import (
 	"xtt-dns-go/xtt"
 )
 
-const ConfigFilePath = "./config.yml"
+const ConfigFilePath = "c:/xttdns/config.yml"
 var xttDns xtt.XttDns
 
 func init() {

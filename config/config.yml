@@ -15,4 +15,4 @@ restart_process_name: iexplore.exe
 refresh_second: 10
 
 # 运行日志
-log_file: xtt.log
+log_file: c:/xtt.log
